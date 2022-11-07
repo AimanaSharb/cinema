@@ -1,0 +1,45 @@
+.header {
+  padding: 15px 0;
+  border-bottom: 1px solid #36353e;
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__logo {
+    font-size: 30px;
+    display: flex;
+    column-gap: 5px;
+  }
+  &__menu {
+    display: flex;
+    column-gap: 30px;
+  }
+  &__link {
+    color: #a5a1b2;
+    transition: .5s;
+    font-size: 22px;
+    &:hover {
+      transition: .5s;
+      color: #ffffff;
+
+    }
+    &.active {
+      color: #ffffff;
+    }
+  }
+  &__right {
+    display: flex;
+    column-gap: 20px;
+  }
+  &__search {
+    border: none;
+    outline: none;
+    background: transparent;
+    &::placeholder {
+      color: #a5a1b2;
+      font-size: 17px;
+      font-weight: 400;
+    }
+  }
+}
