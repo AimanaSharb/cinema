@@ -42,4 +42,9 @@
       font-weight: 400;
     }
   }
+  &__auth {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+  }
 }

@@ -33,9 +33,9 @@ const Header = () => {
                     <div className="header__right">
                         <input className="header__search" type="search" placeholder='Поиск'/>
                         <div className="header__auth">
-                            <Link>Логин</Link>
+                            <Link to={'/login'}>Логин</Link>
                             /
-                            <Link>Регистрация</Link>
+                            <Link to={'/registration'}>Регистрация</Link>
                         </div>
                     </div>
                 </nav>
