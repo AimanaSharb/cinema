@@ -1,0 +1,45 @@
+{
+  "films": [
+    {
+      "id": 1,
+      "title": "Человек-паук: Нет пути домой",
+      "description": "Жизнь и репутация Питера Паркера оказываются под угрозой, поскольку Мистерио раскрыл всему миру тайну личности Человека-паука. Пытаясь исправить ситуацию, Питер обращается за помощью к Стивену Стрэнджу, но вскоре всё становится намного опаснее.",
+      "year": 2021,
+      "time": 148,
+      "genre": "Adventures",
+      "trailer": "https://www.youtube.com/watch?v=hlANal2_tsc",
+      "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/731c4031-7389-44f4-8c15-f9f4e3b0ed90/300x450",
+      "rating" : 0,
+      "countRate" : 0,
+      "status": "free"
+    },
+    {
+      "id": 2,
+      "title": "Чёрный Адам",
+      "description": "5000 лет назад Чёрный Адам был наделен силами египетских богов и заключён в тюрьму. Теперь он освобождается из своей усыпальницы и готовится явить миру уникальный подход к борьбе за справедливость.",
+      "year": 2022,
+      "time": 125,
+      "genre": "Adventures",
+      "trailer": "https://www.youtube.com/watch?v=qTLqSkKd5Wg",
+      "poster": "https://upload.wikimedia.org/wikipedia/ru/thumb/3/3d/%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D0%90%D0%B4%D0%B0%D0%BC.jpg/240px-%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D0%90%D0%B4%D0%B0%D0%BC.jpg",
+      "rating" : 0,
+      "countRate" : 0,
+      "status": "gold"
+    },
+    {
+      "id": 3,
+      "title": "Чёрная пантера: Ваканда навсегда",
+      "description": "После смерти короля Т`Чаллы королева Рамонда, Шури, М`Баку, Окойе и Дора Милаж сражаются, чтобы защитить Ваканду от мировых держав.",
+      "year": 2022,
+      "time": 125,
+      "genre": "Adventures",
+      "trailer": "https://www.youtube.com/watch?v=2Tp8kAlkMVE",
+      "poster": "https://upload.wikimedia.org/wikipedia/ru/thumb/3/3b/Black_Panther_Wakanda_Forever_poster.jpg/240px-Black_Panther_Wakanda_Forever_poster.jpg",
+      "rating" : 0,
+      "countRate" : 0,
+      "status": "gold"
+    }
+  ],
+  "series": [],
+  "cartoons": []
+}
