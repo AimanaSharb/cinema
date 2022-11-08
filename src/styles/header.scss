@@ -19,14 +19,29 @@
     color: #a5a1b2;
     transition: .5s;
     font-size: 22px;
+    position: relative;
     &:hover {
       transition: .5s;
       color: #ffffff;
-
+      .header__item-down {
+        display: flex;
+      }
     }
     &.active {
       color: #ffffff;
     }
+  }
+  &__item-down {
+    transition: .5s;
+    display: none;
+    max-width: 1300px;
+    width: 100%;
+    padding: 30px 20px 20px;
+    background: #1f1b2e;
+    position: absolute;
+    top: 69px;
+    left: 20px;
+    z-index: 99;
   }
   &__right {
     display: flex;

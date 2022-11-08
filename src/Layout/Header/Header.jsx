@@ -15,9 +15,12 @@ const Header = () => {
                     </Link>
                     <ul className="header__menu">
                         <li className="header__item">
-                            <NavLink className="header__link" to={'/films'}>
+                            <Link className="header__link header__link-films" to={'/films'}>
                                Фильмы
-                            </NavLink>
+                            </Link>
+                            <div className="header__item-down">
+                                DOWN
+                            </div>
                         </li>
                         <li className="header__item">
                             <Link className="header__link" to={'/films'}>
