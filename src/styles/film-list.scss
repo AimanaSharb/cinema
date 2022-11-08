@@ -6,25 +6,29 @@
   &__card{
     &-block {
       position: relative;
-      height: 330px;
-      transition: 1s;
+      height: 300px;
       cursor: pointer;
       margin-bottom: 15px;
+      transition: 1s;
       img {
         width: 100%;
         height: 100%;
         object-fit: cover;
         border-radius: 15px;
+        transition: 1s;
       }
       &:hover {
-        transition: 1s;
+
+        transform: translateY(-4px);
         .film-list__card-info {
           display: flex;
+          transition: 1s;
         }
+        transition: 1s;
       }
+
     }
     &-info {
-      transition: 1s;
       height: 100%;
       display: none;
       flex-direction: column;
@@ -66,4 +70,8 @@
       border-radius: 8px;
     }
   }
+}
+
+.swiper {
+  padding: 40px 30px;
 }

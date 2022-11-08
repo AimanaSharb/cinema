@@ -15,9 +15,9 @@ const Header = () => {
                     </Link>
                     <ul className="header__menu">
                         <li className="header__item">
-                            <Link className="header__link header__link-films" to={'/films'}>
+                            <NavLink className="header__link header__link-films" to={'/films'}>
                                Фильмы
-                            </Link>
+                            </NavLink>
                             <div className="header__item-down">
                                 DOWN
                             </div>
