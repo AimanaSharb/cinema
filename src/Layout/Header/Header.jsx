@@ -23,14 +23,14 @@ const Header = () => {
                             </div>
                         </li>
                         <li className="header__item">
-                            <Link className="header__link" to={'/films'}>
+                            <NavLink className="header__link" to={'/series'}>
                                 Сериалы
-                            </Link>
+                            </NavLink>
                         </li>
                         <li className="header__item">
-                            <Link className="header__link" to={'/films'}>
+                            <NavLink className="header__link" to={'/'}>
                                 Мультфильмы
-                            </Link>
+                            </NavLink>
                         </li>
                     </ul>
                     <div className="header__right">

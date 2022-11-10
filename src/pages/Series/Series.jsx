@@ -1,17 +1,17 @@
 import React, {useEffect} from 'react';
-import {getCinema} from "../../redux/reducers/cinema";
+import {getSeries} from "../../redux/reducers/series";
 import {useDispatch, useSelector} from "react-redux";
-import FilmsCard from "./FilmsCard";
-import SkeletonCard from "./SkeletonCard";
+import FilmsCard from "../Films/FilmsCard";
+import SkeletonCard from "../Films/SkeletonCard";
 
-const Films = () => {
+const Series = () => {
 
     const dispatch = useDispatch()
-    const {status, error, data} = useSelector((store) => store.cinema)
+    const {status, error, data} = useSelector((store) => store.series)
 
 
     useEffect(() => {
-        dispatch(getCinema())
+        dispatch(getSeries())
     },[])
 
 
@@ -19,7 +19,7 @@ const Films = () => {
         <section className="films">
             <div className="container">
                 <h2 className="films__title">
-                    Фильмы
+                    Сериалы
                 </h2>
                 <div className="films__sort">
                     <select>
@@ -53,12 +53,12 @@ const Films = () => {
                         status === 'loading' ?
                             <SkeletonCard cards={12}/>
                             : status === 'resolve' ?
-                                <>
-                                    {data.map((item) => (
-                                        <FilmsCard item={item}/>
-                                    ))
-                                    }
-                                </> : <h2>{error}</h2>
+                            <>
+                                {data.map((item) => (
+                                    <FilmsCard item={item}/>
+                                ))
+                                }
+                            </> : <h2>{error}</h2>
                     }
                 </div>
             </div>
@@ -66,4 +66,4 @@ const Films = () => {
     );
 };
 
-export default Films;
+export default Series;

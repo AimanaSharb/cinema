@@ -10,6 +10,7 @@
       cursor: pointer;
       margin-bottom: 15px;
       transition: 1s;
+      overflow-y: hidden;
       img {
         width: 100%;
         height: 100%;
@@ -23,20 +24,21 @@
         .film-list__card-info {
           display: flex;
           transition: 1s;
+          bottom: 0;
         }
         transition: 1s;
       }
 
     }
     &-info {
+      width: 100%;
       height: 100%;
-      display: none;
       flex-direction: column;
       justify-content: flex-end;
       padding: 30px;
       position: absolute;
       border-radius: 15px;
-      bottom: 0;
+      bottom: -100%;
       background: #36353e80;
     }
     &-icons {
