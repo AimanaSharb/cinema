@@ -1,22 +1,9 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {Link, NavLink} from "react-router-dom";
 import {BsFillCameraReelsFill} from 'react-icons/bs'
-import {useDispatch, useSelector} from "react-redux";
-import {getCinema} from "../../redux/reducers/cinema";
-import {search} from "../../redux/reducers/cinema";
+
 
 const Header = () => {
-    const dispatch = useDispatch()
-    const {filter} = useSelector((store) => store.cinema)
-
-   const handleSearch = (e) => {
-
-       dispatch(search(e.target.value))
-   }
-
-    useEffect(() => {
-        dispatch(getCinema(filter))
-    },[filter])
 
     return (
         <header className="header">
@@ -49,7 +36,7 @@ const Header = () => {
                         </li>
                     </ul>
                     <div className="header__right">
-                        <input onSubmit={handleSearch} value="" className="header__search" type="search" placeholder='Поиск'/>
+                        <input className="header__search" type="search" placeholder='Поиск'/>
                         <div className="header__auth">
                             <Link to={'/login'}>Логин</Link>
                             /

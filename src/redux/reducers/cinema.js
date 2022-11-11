@@ -22,8 +22,7 @@ const cinemaSlice = createSlice({
         dataLength: 0,
         filter: {
                 genre : '',
-                year: '',
-                search: ''
+                year: ''
         },
         status: '',
         error: ''
@@ -38,9 +37,6 @@ const cinemaSlice = createSlice({
         },
         changeYear: (state, action) => {
             state.filter.year = action.payload
-        },
-        search: (state, action) =>{
-            state.filter.title = action.payload
         }
     },
     extraReducers: {
@@ -61,5 +57,5 @@ const cinemaSlice = createSlice({
     }
 })
 
-export const {changeGenre, changeYear, search} = cinemaSlice.actions
+export const {changeGenre, changeYear} = cinemaSlice.actions
 export default cinemaSlice.reducer
