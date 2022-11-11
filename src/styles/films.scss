@@ -20,16 +20,27 @@
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
-      select {
-        width: calc(33.33333% - 6.66666px);
-        color: #100e19;
-        option {
-          color: #100e19;
-        }
+    }
+    &-box {
+      background: #312b45 !important;
+      color: white!important;
+      border: none !important;
+      border-radius: 6px !important;
+    }
+    &-item {
+      background: #1f1b2e !important;
+      color: white;
+      &:hover{
+        background: #ea0057 !important;
       }
     }
   }
   &__skeleton {
     width: calc(16.66666% - 25px);
   }
+}
+
+
+.css-6hp17o-MuiList-root-MuiMenu-list{
+  padding: 0 !important;
 }

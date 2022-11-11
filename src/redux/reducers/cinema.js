@@ -1,12 +1,10 @@
 import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
 import axios from "../../utils/axios";
-
-
 export const getCinema = createAsyncThunk(
     'cinema/getCinema',
-    async (_, {rejectWithValue}) => {
+    async (filter, {rejectWithValue}) => {
         try {
-            const res = await axios('/films')
+            const res = await axios(`/films?${filter.genre.length ? "genre=" + filter.genre : ''}&${filter.year !== '' ? "year=" + filter.year : ''} `)
             if (res.statusText !== 'OK') {
                 throw new Error('Server error !')
             }
@@ -22,7 +20,11 @@ const cinemaSlice = createSlice({
     initialState: {
         data: [],
         dataLength: 0,
-        filter: {},
+        filter: {
+                genre : '',
+                year: '',
+                search: ''
+        },
         status: '',
         error: ''
     },
@@ -31,6 +33,15 @@ const cinemaSlice = createSlice({
         //     state.data = action.payload
         //     state.dataLength = action.payload.length
         // }
+        changeGenre: (state,action) => {
+            state.filter.genre = action.payload
+        },
+        changeYear: (state, action) => {
+            state.filter.year = action.payload
+        },
+        search: (state, action) =>{
+            state.filter.title = action.payload
+        }
     },
     extraReducers: {
         [getCinema.pending] : (state,action) => {
@@ -50,5 +61,5 @@ const cinemaSlice = createSlice({
     }
 })
 
-export const {} = cinemaSlice.actions
+export const {changeGenre, changeYear, search} = cinemaSlice.actions
 export default cinemaSlice.reducer

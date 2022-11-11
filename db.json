@@ -6,12 +6,13 @@
       "description": "Жизнь и репутация Питера Паркера оказываются под угрозой, поскольку Мистерио раскрыл всему миру тайну личности Человека-паука. Пытаясь исправить ситуацию, Питер обращается за помощью к Стивену Стрэнджу, но вскоре всё становится намного опаснее.",
       "year": 2021,
       "time": 148,
-      "genre": "Adventures",
+      "genre": "Приключения",
       "trailer": "https://www.youtube.com/watch?v=hlANal2_tsc",
       "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/731c4031-7389-44f4-8c15-f9f4e3b0ed90/300x450",
       "rating" : 0,
       "countRate" : 0,
-      "status": "free"
+      "status": "free",
+      "viewCount": 0
     },
     {
       "id": 2,
@@ -24,7 +25,9 @@
       "poster": "https://upload.wikimedia.org/wikipedia/ru/thumb/3/3d/%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D0%90%D0%B4%D0%B0%D0%BC.jpg/240px-%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D0%90%D0%B4%D0%B0%D0%BC.jpg",
       "rating" : 0,
       "countRate" : 0,
-      "status": "gold"
+      "status": "gold",
+      "viewCount": 0
+
     },
     {
       "id": 3,
@@ -37,7 +40,9 @@
       "poster": "https://upload.wikimedia.org/wikipedia/ru/thumb/3/3b/Black_Panther_Wakanda_Forever_poster.jpg/240px-Black_Panther_Wakanda_Forever_poster.jpg",
       "rating" : 0,
       "countRate" : 0,
-      "status": "gold"
+      "status": "gold",
+      "viewCount": 0
+
     },
     {
       "id": 4,
@@ -50,7 +55,9 @@
       "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/3ddc0946-5e53-4f7a-b355-cd42c2280f9e/600x900",
       "rating" : 0,
       "countRate" : 0,
-      "status": "free"
+      "status": "free",
+      "viewCount": 0
+
     },
     {
       "id": 5,
@@ -63,7 +70,9 @@
       "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/8ab9a119-dd74-44f0-baec-0629797483d7/300x450",
       "rating" : 0,
       "countRate" : 0,
-      "status": "free"
+      "status": "free",
+      "viewCount": 0
+
     },
     {
       "id": 6,
@@ -76,7 +85,9 @@
       "poster": "https://upload.wikimedia.org/wikipedia/ru/thumb/a/a6/Why_Him_%28film%29.jpg/640px-Why_Him_%28film%29.jpg",
       "rating" : 0,
       "countRate" : 0,
-      "status": "free"
+      "status": "free",
+      "viewCount": 0
+
     },
     {
       "id": 7,
@@ -89,7 +100,9 @@
       "poster": "https://upload.wikimedia.org/wikipedia/ru/c/c1/%D0%94%D0%B6%D0%B5%D0%BD%D1%82%D0%BB%D1%8C%D0%BC%D0%B5%D0%BD%D1%8B.jpg",
       "rating" : 0,
       "countRate" : 0,
-      "status": "gold"
+      "status": "gold",
+      "viewCount": 0
+
     },
     {
       "id": 8,
@@ -102,7 +115,9 @@
       "poster": "https://upload.wikimedia.org/wikipedia/ru/f/f1/John_Wick_2.jpg",
       "rating" : 0,
       "countRate" : 0,
-      "status": "gold"
+      "status": "gold",
+      "viewCount": 0
+
     },
     {
       "id": 9,
@@ -115,7 +130,9 @@
       "poster": "https://upload.wikimedia.org/wikipedia/ru/f/f0/Green_Book.jpg",
       "rating" : 0,
       "countRate" : 0,
-      "status": "free"
+      "status": "free",
+      "viewCount": 0
+
     },
     {
       "id": 10,
@@ -128,7 +145,9 @@
       "poster": "https://upload.wikimedia.org/wikipedia/ru/2/2c/Hacksaw_Ridge.jpg",
       "rating" : 0,
       "countRate" : 0,
-      "status": "gold"
+      "status": "gold",
+      "viewCount": 0
+
     },
     {
       "id": 11,
@@ -141,7 +160,9 @@
       "poster": "https://upload.wikimedia.org/wikipedia/ru/e/ea/Guns_Akimbo_%28film%29.jpg",
       "rating" : 0,
       "countRate" : 0,
-      "status": "free"
+      "status": "free",
+      "viewCount": 0
+
     },
     {
       "id": 12,
@@ -154,7 +175,9 @@
       "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/a2da53fd-24c9-4715-8f98-5382b387fd4d/300x450",
       "rating" : 0,
       "countRate" : 0,
-      "status": "free"
+      "status": "free",
+      "viewCount": 0
+
     }
   ],
   "series": [
@@ -169,7 +192,9 @@
       "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/d56e4949-29f6-47d2-87a8-2659f57e1175/600x900",
       "rating" : 0,
       "countRate" : 0,
-      "status": "free"
+      "status": "free",
+      "viewCount": 0
+
     },
     {
       "id": 2,
@@ -182,7 +207,9 @@
       "poster": "https://www.film.ru/sites/default/files/styles/thumb_260x400/public/movies/posters/34553674-2296524.jpg",
       "rating" : 0,
       "countRate" : 0,
-      "status": "gold"
+      "status": "gold",
+      "viewCount": 0
+
     },
     {
       "id": 3,
@@ -195,7 +222,9 @@
       "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/c5539203-bd0a-4d93-920a-11be2fbbd778/600x900",
       "rating" : 0,
       "countRate" : 0,
-      "status": "gold"
+      "status": "gold",
+      "viewCount": 0
+
     },
     {
       "id": 4,
@@ -208,7 +237,9 @@
       "poster": "https://thumbs.dfs.ivi.ru/storage6/contents/f/1/2dfa8e334b1bb5129694b27ad6ebf7.jpg",
       "rating" : 0,
       "countRate" : 0,
-      "status": "free"
+      "status": "free",
+      "viewCount": 0
+
     },
     {
       "id": 5,
@@ -221,7 +252,9 @@
       "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/83329555-5830-42ca-b250-e983073ad226/600x900",
       "rating" : 0,
       "countRate" : 0,
-      "status": "free"
+      "status": "free",
+      "viewCount": 0
+
     },
     {
       "id": 6,
@@ -234,7 +267,8 @@
       "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/34eca9f3-a72a-4bd9-8ec1-efced3056446/600x900",
       "rating" : 0,
       "countRate" : 0,
-      "status": "free"
+      "status": "free",
+      "viewCount": 0
     }
   ],
   "cartoons": []

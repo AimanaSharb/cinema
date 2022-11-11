@@ -3,16 +3,18 @@ import {getCinema} from "../../redux/reducers/cinema";
 import {useDispatch, useSelector} from "react-redux";
 import FilmsCard from "./FilmsCard";
 import SkeletonCard from "./SkeletonCard";
+import FilmsSort from "./FilmsFilter/FilmsSort";
+import FilmsYear from "./FilmsFilter/FilmsYear";
 
 const Films = () => {
 
     const dispatch = useDispatch()
-    const {status, error, data} = useSelector((store) => store.cinema)
+    const {status, error, data,filter} = useSelector((store) => store.cinema)
 
 
     useEffect(() => {
-        dispatch(getCinema())
-    },[])
+        dispatch(getCinema(filter))
+    },[filter])
 
 
     return (
@@ -30,21 +32,8 @@ const Films = () => {
                 </div>
                 <div className="films__filter">
                     <div className="films__filter-sort">
-                        <select>
-                            <option value="" disabled>Жанры</option>
-                            <option value="" >Комедии</option>
-                            <option value="" >Аниме</option>
-                        </select>
-                        <select>
-                            <option value="" disabled>Страны</option>
-                            <option value="" >США</option>
-                            <option value="" >Япония</option>
-                        </select>
-                        <select>
-                            <option value="" disabled>Годы</option>
-                            <option value="" >2022</option>
-                            <option value="" >2021</option>
-                        </select>
+                        <FilmsSort/>
+                        <FilmsYear/>
                     </div>
 
                 </div>
