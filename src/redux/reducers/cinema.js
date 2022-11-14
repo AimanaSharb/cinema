@@ -4,7 +4,7 @@ export const getCinema = createAsyncThunk(
     'cinema/getCinema',
     async (filter, {rejectWithValue}) => {
         try {
-            const res = await axios(`/films?${filter.genre.length ? "genre=" + filter.genre : ''}&${filter.year !== '' ? "year=" + filter.year : ''} `)
+            const res = await axios(`/films?${filter.genre.length ? "genre=" + filter.genre : ''}&${filter.year !== '' ? "year=" + filter.year : ''}&${filter.search !== '' ? "title_like=" + filter.search : ''} `)
             if (res.statusText !== 'OK') {
                 throw new Error('Server error !')
             }
@@ -22,7 +22,8 @@ const cinemaSlice = createSlice({
         dataLength: 0,
         filter: {
                 genre : '',
-                year: ''
+                year: '',
+                search: ''
         },
         status: '',
         error: ''
@@ -37,6 +38,9 @@ const cinemaSlice = createSlice({
         },
         changeYear: (state, action) => {
             state.filter.year = action.payload
+        },
+        changeSearch: (state, action) =>  {
+            state.filter.search = action.payload
         }
     },
     extraReducers: {
@@ -57,5 +61,5 @@ const cinemaSlice = createSlice({
     }
 })
 
-export const {changeGenre, changeYear} = cinemaSlice.actions
+export const {changeGenre, changeYear, changeSearch} = cinemaSlice.actions
 export default cinemaSlice.reducer

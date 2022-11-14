@@ -1,11 +1,13 @@
 .header {
   padding: 15px 0;
   border-bottom: 1px solid #36353e;
+
   &__nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
   }
+
   &__logo {
     font-size: 30px;
     display: flex;
@@ -13,26 +15,28 @@
     align-items: center;
     column-gap: 5px;
   }
+
   &__menu {
     display: flex;
     column-gap: 30px;
   }
+
   &__link {
     color: #a5a1b2;
     transition: .5s;
     font-size: 22px;
     position: relative;
-    &:hover {
-      transition: .5s;
-      color: #ffffff;
-      .header__item-down {
-        display: flex;
-      }
-    }
     &.active {
       color: #ffffff;
     }
   }
+  &__link:hover {
+    color: #fff;
+    .header__item-down {
+      display: flex;
+    }
+  }
+
   &__item-down {
     transition: .5s;
     display: none;
@@ -45,20 +49,24 @@
     left: 20px;
     z-index: 99;
   }
+
   &__right {
     display: flex;
     column-gap: 20px;
   }
+
   &__search {
     border: none;
     outline: none;
     background: transparent;
+
     &::placeholder {
       color: #a5a1b2;
       font-size: 17px;
       font-weight: 400;
     }
   }
+
   &__auth {
     display: flex;
     align-items: center;

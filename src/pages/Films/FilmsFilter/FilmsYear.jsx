@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import Box from '@mui/material/Box';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
@@ -11,20 +11,23 @@ import {useDispatch} from "react-redux";
 const FilmsYear = () => {
 
     const dispatch = useDispatch()
-    const handleChange = (event) => {
-        dispatch(changeYear(event.target.value))
-    };
+
+    const [year, setYear] = useState('');
+
+    useEffect(() => {
+        dispatch(changeYear(year))
+    },[year]);
 
     return (
         <Box className="films__filter-box" sx={{ minWidth: 120 }}>
             <FormControl fullWidth>
                 <InputLabel style={{color: 'white'}} id="demo-simple-select-label">Год</InputLabel>
-                <Select
-                    labelId="demo-simple-select-label"
+                <Select style={{color: 'white'}}
+                        labelId="demo-simple-select-label"
                     id="demo-simple-select"
-                    value=''
+                    value={year}
                     label="fasf"
-                    onChange={handleChange}
+                    onChange={(e) => setYear(e.target.value)}
                 >
                     <MenuItem className="films__filter-item"  value="">По умолчанию</MenuItem>
                     <MenuItem className="films__filter-item"  value={2022}>2022</MenuItem>

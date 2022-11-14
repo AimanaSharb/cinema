@@ -1,9 +1,17 @@
 import React from 'react';
 import {Link, NavLink} from "react-router-dom";
 import {BsFillCameraReelsFill} from 'react-icons/bs'
+import {useDispatch} from "react-redux";
+import {changeSearch} from '../../redux/reducers/cinema'
 
 
 const Header = () => {
+
+    const dispatch = useDispatch()
+
+    const handleChange = (e) => {
+        dispatch(changeSearch(e.target.value))
+    }
 
     return (
         <header className="header">
@@ -20,9 +28,7 @@ const Header = () => {
                             <NavLink className="header__link header__link-films" to={'/films'}>
                                Фильмы
                             </NavLink>
-                            <div className="header__item-down">
-                                DOWN
-                            </div>
+
                         </li>
                         <li className="header__item">
                             <NavLink className="header__link" to={'/series'}>
@@ -35,8 +41,11 @@ const Header = () => {
                             </NavLink>
                         </li>
                     </ul>
+                    <div className="header__item-down">
+                        DOWN
+                    </div>
                     <div className="header__right">
-                        <input className="header__search" type="search" placeholder='Поиск'/>
+                        <input className="header__search" type="search" placeholder='Поиск' onChange={handleChange}/>
                         <div className="header__auth">
                             <Link to={'/login'}>Логин</Link>
                             /
