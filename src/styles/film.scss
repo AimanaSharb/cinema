@@ -25,6 +25,11 @@
       column-gap: 10px;
       margin: 15px 0;
     }
+    &-up {
+      display: flex;
+      column-gap: 20px;
+      justify-content: center;
+    }
     &-rate {
       display: flex;
       flex-direction: column;

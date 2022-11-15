@@ -5,12 +5,12 @@ import {Navigation} from "swiper";
 import "swiper/css";
 import "swiper/css/navigation"
 
-import image from '../../../assets/slide.jpg'
+
 
 const Slider = () => {
     return (
         <section className="slider">
-            <div className="container">
+
                 <Swiper
                     loop={true}
                     slidesPerView={1}
@@ -40,7 +40,6 @@ const Slider = () => {
                         </div>
                     </SwiperSlide>
                 </Swiper>
-            </div>
 
         </section>
     );

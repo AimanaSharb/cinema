@@ -1,8 +1,8 @@
 import React, {useEffect} from 'react';
 import {getSeries} from "../../redux/reducers/series";
 import {useDispatch, useSelector} from "react-redux";
-import FilmsCard from "../Films/FilmsCard";
-import SkeletonCard from "../Films/SkeletonCard";
+import FilmsCard from "../Films/FilmsCard/FilmsCard";
+import SkeletonCard from "../Films/SkeletinCard/SkeletonCard";
 
 const Series = () => {
 

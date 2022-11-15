@@ -1,7 +1,7 @@
 .header {
   padding: 15px 0;
   border-bottom: 1px solid #36353e;
-
+  position: relative;
   &__nav {
     display: flex;
     align-items: center;
@@ -23,20 +23,21 @@
 
   &__link {
     color: #a5a1b2;
-    transition: .5s;
     font-size: 22px;
-    position: relative;
     &.active {
       color: #ffffff;
     }
   }
   &__link:hover {
     color: #fff;
-    .header__item-down {
-      display: flex;
-    }
   }
-
+  //&__item_films {
+  //  &:hover {
+  //    .header__item-down {
+  //      display: flex;
+  //    }
+  //  }
+  //}
   &__item-down {
     transition: .5s;
     display: none;
@@ -45,10 +46,10 @@
     padding: 30px 20px 20px;
     background: #1f1b2e;
     position: absolute;
-    top: 69px;
+    top: 99px;
     left: 20px;
-    z-index: 99;
   }
+
 
   &__right {
     display: flex;

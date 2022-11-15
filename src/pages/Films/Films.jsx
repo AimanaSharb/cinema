@@ -1,20 +1,20 @@
 import React, {useEffect} from 'react';
 import {getCinema} from "../../redux/reducers/cinema";
 import {useDispatch, useSelector} from "react-redux";
-import FilmsCard from "./FilmsCard";
-import SkeletonCard from "./SkeletonCard";
+import FilmsCard from "./FilmsCard/FilmsCard";
+import SkeletonCard from "./SkeletinCard/SkeletonCard";
 import FilmsSort from "./FilmsFilter/FilmsSort";
 import FilmsYear from "./FilmsFilter/FilmsYear";
 
 const Films = () => {
 
     const dispatch = useDispatch()
-    const {status, error, data,filter} = useSelector((store) => store.cinema)
+    const {status, error, data, filter} = useSelector((store) => store.cinema)
 
 
     useEffect(() => {
         dispatch(getCinema(filter))
-    },[filter])
+    }, [filter])
 
 
     return (
@@ -26,8 +26,8 @@ const Films = () => {
                 <div className="films__sort">
                     <select>
                         <option value="" selected>По популярности</option>
-                        <option value="" >Дате</option>
-                        <option value="" >Рейтингу</option>
+                        <option value="">Дате</option>
+                        <option value="">Рейтингу</option>
                     </select>
                 </div>
                 <div className="films__filter">
@@ -35,19 +35,18 @@ const Films = () => {
                         <FilmsSort/>
                         <FilmsYear/>
                     </div>
-
                 </div>
                 <div className="films__row">
                     {
                         status === 'loading' ?
                             <SkeletonCard cards={12}/>
                             : status === 'resolve' ?
-                                <>
-                                    {data.map((item) => (
-                                        <FilmsCard item={item}/>
-                                    ))
-                                    }
-                                </> : <h2>{error}</h2>
+                            <>
+                                {data.map((item) => (
+                                    <FilmsCard item={item}/>
+                                ))
+                                }
+                            </> : <h2>{error}</h2>
                     }
                 </div>
             </div>

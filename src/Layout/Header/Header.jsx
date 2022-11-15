@@ -23,12 +23,11 @@ const Header = () => {
                             I-R Cinema
                         </h1>
                     </Link>
-                    <ul className="header__menu">
-                        <li className="header__item">
-                            <NavLink className="header__link header__link-films" to={'/films'}>
+                    <ul className="header__menu ">
+                        <li className="header__item header__item_films">
+                            <NavLink className="header__link " to={'/films'}>
                                Фильмы
                             </NavLink>
-
                         </li>
                         <li className="header__item">
                             <NavLink className="header__link" to={'/series'}>
@@ -36,14 +35,12 @@ const Header = () => {
                             </NavLink>
                         </li>
                         <li className="header__item">
-                            <NavLink className="header__link" to={'/'}>
+                            <NavLink className="header__link" to={''}>
                                 Мультфильмы
                             </NavLink>
                         </li>
                     </ul>
-                    <div className="header__item-down">
-                        DOWN
-                    </div>
+
                     <div className="header__right">
                         <input className="header__search" type="search" placeholder='Поиск' onChange={handleChange}/>
                         <div className="header__auth">
