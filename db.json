@@ -9,8 +9,8 @@
       "genre": "Приключения",
       "trailer": "https://www.youtube.com/watch?v=hlANal2_tsc",
       "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/731c4031-7389-44f4-8c15-f9f4e3b0ed90/300x450",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "free",
       "viewCount": 0
     },
@@ -23,11 +23,10 @@
       "genre": "Приключения",
       "trailer": "https://www.youtube.com/watch?v=qTLqSkKd5Wg",
       "poster": "https://upload.wikimedia.org/wikipedia/ru/thumb/3/3d/%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D0%90%D0%B4%D0%B0%D0%BC.jpg/240px-%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D0%90%D0%B4%D0%B0%D0%BC.jpg",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "gold",
       "viewCount": 0
-
     },
     {
       "id": 3,
@@ -38,11 +37,10 @@
       "genre": "Приключения",
       "trailer": "https://www.youtube.com/watch?v=2Tp8kAlkMVE",
       "poster": "https://upload.wikimedia.org/wikipedia/ru/thumb/3/3b/Black_Panther_Wakanda_Forever_poster.jpg/240px-Black_Panther_Wakanda_Forever_poster.jpg",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "gold",
       "viewCount": 0
-
     },
     {
       "id": 4,
@@ -53,11 +51,10 @@
       "genre": "Приключения",
       "trailer": "https://www.youtube.com/watch?v=i0XvzdqAb9k",
       "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/3ddc0946-5e53-4f7a-b355-cd42c2280f9e/600x900",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "free",
       "viewCount": 0
-
     },
     {
       "id": 5,
@@ -68,11 +65,10 @@
       "genre": "Фантастика",
       "trailer": "https://www.youtube.com/watch?v=85Zz1CCXyDI",
       "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/8ab9a119-dd74-44f0-baec-0629797483d7/300x450",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "free",
       "viewCount": 0
-
     },
     {
       "id": 6,
@@ -83,11 +79,10 @@
       "genre": "Комедия",
       "trailer": "https://www.youtube.com/watch?v=19v1MnY3Uf0",
       "poster": "https://upload.wikimedia.org/wikipedia/ru/thumb/a/a6/Why_Him_%28film%29.jpg/640px-Why_Him_%28film%29.jpg",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "free",
       "viewCount": 0
-
     },
     {
       "id": 7,
@@ -98,11 +93,10 @@
       "genre": "Криминал",
       "trailer": "https://www.youtube.com/watch?v=dABPCMxu074",
       "poster": "https://upload.wikimedia.org/wikipedia/ru/c/c1/%D0%94%D0%B6%D0%B5%D0%BD%D1%82%D0%BB%D1%8C%D0%BC%D0%B5%D0%BD%D1%8B.jpg",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "gold",
       "viewCount": 0
-
     },
     {
       "id": 8,
@@ -113,11 +107,10 @@
       "genre": "Боевик",
       "trailer": "https://www.youtube.com/watch?v=0DkJa_aGTP8&t=3s",
       "poster": "https://upload.wikimedia.org/wikipedia/ru/f/f1/John_Wick_2.jpg",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "gold",
       "viewCount": 0
-
     },
     {
       "id": 9,
@@ -128,11 +121,10 @@
       "genre": "драма",
       "trailer": "https://www.youtube.com/watch?v=e6b9urtUJt0",
       "poster": "https://upload.wikimedia.org/wikipedia/ru/f/f0/Green_Book.jpg",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "free",
       "viewCount": 0
-
     },
     {
       "id": 10,
@@ -143,11 +135,10 @@
       "genre": "драма",
       "trailer": "https://www.youtube.com/watch?v=VxaGyCaCouY",
       "poster": "https://upload.wikimedia.org/wikipedia/ru/2/2c/Hacksaw_Ridge.jpg",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "gold",
       "viewCount": 0
-
     },
     {
       "id": 11,
@@ -158,11 +149,10 @@
       "genre": "Боевик",
       "trailer": "https://www.youtube.com/watch?v=cMo3-FJBPLw",
       "poster": "https://upload.wikimedia.org/wikipedia/ru/e/ea/Guns_Akimbo_%28film%29.jpg",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "free",
       "viewCount": 0
-
     },
     {
       "id": 12,
@@ -173,11 +163,10 @@
       "genre": "Фантастика",
       "trailer": "https://www.youtube.com/watch?v=VQfjnd3xCqo",
       "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1600647/a2da53fd-24c9-4715-8f98-5382b387fd4d/300x450",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "free",
       "viewCount": 0
-
     }
   ],
   "series": [
@@ -190,11 +179,10 @@
       "genre": "Ужасы",
       "trailer": "https://www.youtube.com/watch?v=DTkkYFKqV6o",
       "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/d56e4949-29f6-47d2-87a8-2659f57e1175/600x900",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "free",
       "viewCount": 0
-
     },
     {
       "id": 2,
@@ -205,11 +193,10 @@
       "genre": "Фантастика",
       "trailer": "кольцо власти трейлер",
       "poster": "https://www.film.ru/sites/default/files/styles/thumb_260x400/public/movies/posters/34553674-2296524.jpg",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "gold",
       "viewCount": 0
-
     },
     {
       "id": 3,
@@ -220,11 +207,10 @@
       "genre": "Драма",
       "trailer": "https://www.youtube.com/watch?v=AaIrw54oonU",
       "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/c5539203-bd0a-4d93-920a-11be2fbbd778/600x900",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "gold",
       "viewCount": 0
-
     },
     {
       "id": 4,
@@ -235,11 +221,10 @@
       "genre": "Драма",
       "trailer": "https://www.youtube.com/watch?v=L5l3vv9n7EU",
       "poster": "https://thumbs.dfs.ivi.ru/storage6/contents/f/1/2dfa8e334b1bb5129694b27ad6ebf7.jpg",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "free",
       "viewCount": 0
-
     },
     {
       "id": 5,
@@ -250,11 +235,10 @@
       "genre": "Драма",
       "trailer": "https://www.youtube.com/watch?v=NPFilbpd_Qs",
       "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/83329555-5830-42ca-b250-e983073ad226/600x900",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "free",
       "viewCount": 0
-
     },
     {
       "id": 6,
@@ -265,11 +249,48 @@
       "genre": "Фантастика",
       "trailer": "https://www.youtube.com/watch?v=esAsOLKlU-Q",
       "poster": "https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/34eca9f3-a72a-4bd9-8ec1-efced3056446/600x900",
-      "rating" : 0,
-      "countRate" : 0,
+      "rating": 0,
+      "countRate": 0,
       "status": "free",
       "viewCount": 0
     }
   ],
-  "cartoons": []
+  "cartoons": [],
+  "users": [
+    {
+      "email": "muslim@mail.ru",
+      "password": "$2a$10$lQz4nFMaGBfL5jn9/z1DK.5RDWlnI18k57v04YPAosvMUN4W3grT.",
+      "login": "muslim77",
+      "phone": "+996505121212",
+      "id": 1
+    },
+    {
+      "email": "maks@mail.ru",
+      "password": "$2a$10$CStoZs5utGQ4zoCWEM2iSu4idelInPpt2z6Ac3Awr32S8aOjDU7hm",
+      "login": "max007",
+      "phone": "+996(502)13-21-23",
+      "id": 2
+    },
+    {
+      "email": "nurs@mail.ru",
+      "password": "$2a$10$/CN3l1tEkceeLAh0oL2EJu70lNQfwBCjglEYfswXu8KVji.P94B96",
+      "login": "nurs777",
+      "phone": "+996(777)77-77-77",
+      "id": 3
+    },
+    {
+      "email": "alisher@mail.ru",
+      "password": "$2a$10$uqHAdm4H/FcUHSmA4rtpu.6jLfKXvLqLl54CAloDMwgwwS.x2rWee",
+      "login": "alish007",
+      "phone": "+996(213)13-21-31",
+      "id": 4
+    },
+    {
+      "email": "aimana@mail.ru",
+      "password": "$2a$10$8EsTRoFTE1pIzPIiubZu0OLp46fgx1I3pPHizpUYJ/BUdFhxYRt4m",
+      "login": "aimana123",
+      "phone": "+996(123)12-31-23",
+      "id": 5
+    }
+  ]
 }

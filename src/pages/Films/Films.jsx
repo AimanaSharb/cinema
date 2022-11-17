@@ -10,10 +10,14 @@ const Films = () => {
 
     const dispatch = useDispatch()
     const {status, error, data, filter} = useSelector((store) => store.cinema)
+    const {user} = useSelector((store) => store.user)
 
 
     useEffect(() => {
-        dispatch(getCinema(filter))
+        dispatch(getCinema({
+            ...filter,
+            status: JSON.parse(localStorage.getItem('user')) !== null ? 'gold' : 'free'
+        }))
     }, [filter])
 
 

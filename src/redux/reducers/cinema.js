@@ -4,7 +4,7 @@ export const getCinema = createAsyncThunk(
     'cinema/getCinema',
     async (filter, {rejectWithValue}) => {
         try {
-            const res = await axios(`/films?${filter.genre.length ? "genre=" + filter.genre : ''}&${filter.year !== '' ? "year=" + filter.year : ''}&${filter.search !== '' ? "title_like=" + filter.search : ''} `)
+            const res = await axios(`/films?${filter.status === 'free' ? 'status=free&' : ''}${filter.genre.length ? "genre=" + filter.genre + '&' : ''}${filter.year !== '' ? "year=" + filter.year+ '&' : ''}${filter.search !== '' ? "title_like=" + filter.search : ''} `)
             if (res.statusText !== 'OK') {
                 throw new Error('Server error !')
             }

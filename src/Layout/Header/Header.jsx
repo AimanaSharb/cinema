@@ -1,13 +1,17 @@
 import React from 'react';
-import {Link, NavLink} from "react-router-dom";
+import {Link, NavLink, useNavigate} from "react-router-dom";
 import {BsFillCameraReelsFill} from 'react-icons/bs'
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import {changeSearch} from '../../redux/reducers/cinema'
+import {logOutAccount} from "../../redux/reducers/user";
 
 
 const Header = () => {
 
     const dispatch = useDispatch()
+    const navigate = useNavigate()
+
+    const {user} = useSelector((store) => store.user)
 
     const handleChange = (e) => {
         dispatch(changeSearch(e.target.value))
@@ -43,11 +47,22 @@ const Header = () => {
 
                     <div className="header__right">
                         <input className="header__search" type="search" placeholder='Поиск' onChange={handleChange}/>
-                        <div className="header__auth">
-                            <Link to={'/login'}>Логин</Link>
-                            /
-                            <Link to={'/registration'}>Регистрация</Link>
-                        </div>
+
+                        {
+                            user.email.length ?
+                                <div className="header__auth">
+                                    <p onClick={() => {
+                                        dispatch(logOutAccount())
+                                        localStorage.removeItem('user')
+                                        navigate('/')
+                                    }}>Выйти</p>
+                                </div>:
+                                <div className="header__auth">
+                                    <Link to={'/login'}>Логин</Link>
+                                    /
+                                    <Link to={'/registration'}>Регистрация</Link>
+                                </div>
+                        }
                     </div>
                 </nav>
             </div>
