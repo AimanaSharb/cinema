@@ -291,6 +291,20 @@
       "login": "aimana123",
       "phone": "+996(123)12-31-23",
       "id": 5
+    },
+    {
+      "email": "akdil.hstech@gmail.com",
+      "password": "$2a$10$QPY6L8Y8L7fIv30qAFBG6O2Lg0XXb7T8IaQ72GvM/JYBry1v9wJ2.",
+      "login": "Phantather",
+      "phone": "+996(501)25-12-21",
+      "id": 6
+    },
+    {
+      "email": "akdil.phanti@gmail.com",
+      "password": "$2a$10$3Yn3gBdWqltJ.tNsGdPJY.sIJhcmrP7Um3haC4C/n9PUwfB27/IKa",
+      "login": "Phantather",
+      "phone": "+996(555)55-55-55",
+      "id": 7
     }
   ]
 }

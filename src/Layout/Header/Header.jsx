@@ -63,6 +63,9 @@ const Header = () => {
                                     <Link to={'/registration'}>Регистрация</Link>
                                 </div>
                         }
+                        <Link to={'/admin-panel'}>
+                            Админ панель
+                        </Link>
                     </div>
                 </nav>
             </div>

@@ -16,6 +16,10 @@ const Slider = () => {
                     slidesPerView={1}
                     spaceBetween={30}
                     navigation={true}
+                    autoplay={{
+                        delay: 500
+                    }}
+                    speed={2000}
                     modules={[Navigation]}
                     className="sliderSwiper"
                 >

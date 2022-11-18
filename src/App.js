@@ -10,6 +10,7 @@ import './styles/style.scss'
 import {useEffect} from "react";
 import {useDispatch} from "react-redux";
 import {loginAccount} from "./redux/reducers/user";
+import AdminPanel from "./pages/AdminPanel/AdminPanel";
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
           </Route>
           <Route path={'/login'} element={<Login/>}/>
           <Route path={'/registration'} element={<Register/>}/>
+          <Route path={'/admin-panel'} element={<AdminPanel/>}/>
       </Routes>
     </div>
   );
