@@ -305,6 +305,20 @@
       "login": "Phantather",
       "phone": "+996(555)55-55-55",
       "id": 7
+    },
+    {
+      "email": "admin@mail.ru",
+      "password": "$2a$10$feeKmWE4SMauyxjD3hquKOp2p7X9ZTbecFoNHMLkxMDUvbUpDQT3.",
+      "login": "Phantather",
+      "phone": "+996(555)55-55-55",
+      "id": 8
+    },
+    {
+      "email": "ouu.akdil.kg@gmail.com",
+      "password": "$2a$10$RyowfSoY3xBdmiYZr.RlWO9OhF1EO5hqvixI7oN2Xrr5JECkwJwm2",
+      "login": "Phantather",
+      "phone": "+996(555)55-55-55",
+      "id": 9
     }
   ]
 }
