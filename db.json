@@ -319,6 +319,13 @@
       "login": "Phantather",
       "phone": "+996(555)55-55-55",
       "id": 9
+    },
+    {
+      "email": "aimanulkin@gmail.com",
+      "password": "$2a$10$IElh4ZC/szt.ohYMdoF4deoO8itxsps6i5SbtV0xq935Cd79zDg3S",
+      "login": "Aiimana",
+      "phone": "+996(508)96-99-41",
+      "id": 10
     }
   ]
 }
